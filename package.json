@@ -1,0 +1,29 @@
+{
+	"name": "speedskating",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview",
+		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"d3": "^7.3.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-svelte3": "^3.2.1",
+		"lodash-es": "^4.17.21",
+		"prettier": "^2.4.1",
+		"prettier-plugin-svelte": "^2.4.0",
+		"regl": "^2.1.0",
+		"sass": "^1.46.0",
+		"svelte": "^3.44.0",
+		"svelte-preprocess": "^4.10.1",
+		"svelte-watch-resize": "^1.0.3"
+	},
+	"type": "module"
+}

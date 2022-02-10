@@ -1,0 +1,201 @@
+{
+    "json_output": {
+        "race": {
+            "setup": {
+                "type": "speedskating",
+                "name": "Claudia Pechstein 3000m",
+                "date": "2022-02-05",
+                "place": "Beijing and others",
+                "title": "Running after her shadows",
+                "subtitle": "3000m speed skating: Claudia Pechstein <span style='border-bottom: 2px solid #D03D12;'>in 2022</span> vs. <span style='border-bottom: 2px solid #0096C7';>her previous self</span>.",
+                "length": 3000,
+                "composition": "6,7,8,9,10,0,1,2,3,4,5,6,7,8,9,10,0,1,2,3,4,5,6,7,8,9,10,0,1,2,3,4,5,6,7,8,9,10,0,1,2,3,4,5,6,7,8,9,10,0,1,2,3,4,5,6,7,8,9,10,0,1,2,3,4,5,6,7,8,9,10,0,1,2,3,4,5,6,7,8,9,10",
+                "sectors": [0.0, 0.0667, 0.2, 0.3333, 0.4667, 0.6, 0.7333, 0.8667, 1.0],
+                "num_paths": 6,
+                "resolution": 5000,
+                "trail_length": 30,
+                "countdown": 3000,
+                "starting": 0,
+                "ending": 0,
+                "step": 5,
+                "starting_exponent": 1.4,
+                "offset_function_type": "sinewave",
+                "track_offset_factor": 0.8,
+                "speed": 10,
+                "result": {
+                    "show_year": true,
+                    "show_country": false
+                },
+                "sources": "Sources: Sports Reference, ISU"
+            },
+            "results": [
+                {
+                    "athlete_id": 0,
+                    "year": 2022,
+                    "times": ["21.04", "53.35", "1:26.36", "1:59.91", "2:34.03", "3:08.31", "3:42.90", "4:17.16"],
+                    "finish_time": "4:17.16",
+                    "opacity": 0.7,
+                    "background_color": "#D03D12",
+                    "trail_color": "#C4DDEF",
+                    "size": 16,
+                    "show_flag": false,
+                    "rank": 6,
+                    "medal": null
+                },
+                {
+                    "athlete_id": 0,
+                    "year": 2002,
+                    "times": ["19.45", "49.93", "1:21.00", "1:52.30", "2:23.38", "2:54.57", "3:25.86", "3:57.70"],
+                    "finish_time": "3:57.70",
+                    "opacity": 0.7,
+                    "background_color": "#0096C7",
+                    "trail_color": "#C4DDEF",
+                    "size": 16,
+                    "show_flag": false,
+                    "rank": 1,
+                    "medal": "#D6AF36"
+                },
+                {
+                    "athlete_id": 0,
+                    "year": 2018,
+                    "times": ["20.73", "52.02", "1:23.45", "1:55.07", "2:26.88", "2:58.96", "3:31.53", "4:04.49"],
+                    "finish_time": "4:04.49",
+                    "opacity": 0.7,
+                    "background_color": "#0096C7",
+                    "trail_color": "#C4DDEF",
+                    "size": 16,
+                    "show_flag": false,
+                    "rank": 2,
+                    "medal": null
+                },
+                {
+                    "athlete_id": 0,
+                    "year": 2014,
+                    "times": ["20.21", "51.19", "1:22.54", "1:54.41", "2:26.30", "2:58.87", "3:32.00", "4:05.26"],
+                    "finish_time": "4:05.26",
+                    "opacity": 0.7,
+                    "background_color": "#0096C7",
+                    "trail_color": "#C4DDEF",
+                    "size": 16,
+                    "show_flag": false,
+                    "rank": 3,
+                    "medal": null
+                },
+                
+                {
+                    "athlete_id": 0,
+                    "year": 2006,
+                    "times": ["19.53", "50.21", "1:21.68", "1:53.55", "2:25.84", "2:58.64", "3:31.66", "4:05.54"],
+                    "finish_time": "4:05.54",
+                    "opacity": 0.7,
+                    "background_color": "#0096C7",
+                    "trail_color": "#C4DDEF",
+                    "size": 16,
+                    "show_flag": false,
+                    "rank": 4,
+                    "medal": null
+                },
+                {
+                    "athlete_id": 0,
+                    "year": 1998,
+                    "times": ["20.11", "51.41", "1:22.79", "1:54.30", "2:26.29", "2:59.12", "3:33.21", "4:08.47"],
+                    "finish_time": "4:08.47",
+                    "opacity": 0.7,
+                    "background_color": "#0096C7",
+                    "trail_color": "#C4DDEF",
+                    "size": 16,
+                    "show_flag": false,
+                    "rank": 5,
+                    "medal": "#A7A7AD"
+                },
+                {
+                    "athlete_id": 0,
+                    "year": 1994,
+                    "times": ["20.23", "52.53", "1:25.80", "1:59.51", "2:33.63", "3:08.05", "3:43.09", "4:18.34"],
+                    "finish_time": "4:18.34",
+                    "opacity": 0.7,
+                    "background_color": "#0096C7",
+                    "trail_color": "#C4DDEF",
+                    "size": 16,
+                    "show_flag": false,
+                    "rank": 7,
+                    "medal": "#fcb59f"
+                }
+            ]
+        },
+        "athletes": [
+            {
+                "athlete_id": 0,
+                "first_name": "Claudia",
+                "last_name": "Pechstein",
+                "age": 49,
+                "country": "Deutschland",
+                "iso": "de"
+            }
+        ],
+        "tracks": {
+            "speedskating": {
+                "parent_svg": {
+                    "width": 2586,
+                    "height": 1048
+                },
+                "paths": [
+                    {
+                        "id": 0,
+                        "path": "M1878 922.5H2037"
+                    },
+                    {
+                        "id": 1,
+                        "path": "M2037,922.5C2257.09,922.5 2435.5,744.085 2435.5,524"
+                    },
+                    {
+                        "id": 2,
+                        "path": "M2435.5 524C2435.5 303.415 2257.09 125 2037 125"
+                    },
+                    {
+                        "id": 3,
+                        "path": "M2037 125H1933"
+                    },
+                    {
+                        "id": 4,
+                        "path": "M1933 125H1188"
+                    },
+                    {
+                        "id": 5,
+                        "path": "M1188 125H604"
+                    },
+                    {
+                        "id": 6,
+                        "path": "M604 125H549"
+                    },
+                    {
+                        "id": 7,
+                        "path": "M549,125C329.415,125 151,303.415 151,524"
+                    },
+                    {
+                        "id": 8,
+                        "path": "M151,524C151,744.085 329.415,922.5 549,922.5"
+                    },
+                    {
+                        "id": 9,
+                        "path": "M549 922.5H1293"
+                    },
+                    {
+                        "id": 10,
+                        "path": "M1293 922.5H1878"
+                    }
+                ],
+                "end_marker": {
+                    "offset_x": "0",
+                    "offset_y": "-20px"
+                },
+                "intermediate_display": {
+                    "show_type": ["last_name", "year"]
+                }
+            },
+            "sliding": [
+
+            ]
+        }
+    }
+}
