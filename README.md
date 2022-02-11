@@ -6,6 +6,9 @@
 
 An animation widget to show olympic speedskating runs. Built with [Svelte](https://svelte.dev), [D3](https://d3js.org) and [regl](http://regl.party).
 
+Watch an example video [here](https://twitter.com/h_i_g_s_c_h/status/1490722093004214281?s=20&t=FJtQAXIF6Kp0vrFUG_X4tw).
+
+
 ## Run locally
 
 ```
