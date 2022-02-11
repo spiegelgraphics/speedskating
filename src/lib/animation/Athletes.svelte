@@ -1,11 +1,12 @@
 <script>
+    // Wrapper for the athletes
     import * as createREGL from 'regl';
 
-    import { sectorCompletes, realClockStep } from '$stores/clock';
+    import { sectorCompletes } from '$stores/clock';
     import { params } from '$stores/params';
     import { initCanvas, createDrawDots } from '$utils/webgl';
 
-    import Athlete from '$lib/Athlete.svelte';
+    import Athlete from '$lib/animation/Athlete.svelte';
 
     export let results;
     export let details;
@@ -56,7 +57,7 @@
     // Reset intermediate times display
     $: localClock > raceLength && sectorCompletes.reset();
 
-    // WebGL logic
+    // WebGL definition logic
     $: if (canvas) {
         initCanvas(canvas, width, height);
         regl = createREGL({
@@ -70,6 +71,7 @@
         draw = createDrawDots(regl);
     }
 
+    // Draw with WebGL
     $: if (draw) {
         const coords = currentCoords.flat();
         draw({

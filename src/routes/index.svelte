@@ -3,12 +3,12 @@
     import { setup, trackData } from '$stores/data';
     import { css } from '$utils/actions';
 
-    import TextAlignEmbed from '$lib/TextAlignEmbed.svelte';
-    import SizeDetector from '$lib/SizeDetector.svelte';
-    import Header from '$lib/Header.svelte';
-    import Animation from '$lib/Animation.svelte';
-    import Controls from '$lib/Controls.svelte';
-    import Sources from '$lib/Sources.svelte';
+    import TextAlignEmbed from '$lib/utils/TextAlignEmbed.svelte';
+    import SizeDetector from '$lib/utils/SizeDetector.svelte';
+    import Header from '$lib/header/Header.svelte';
+    import Animation from '$lib/animation/Animation.svelte';
+    import Controls from '$lib/controls/Controls.svelte';
+    import Sources from '$lib/sources/Sources.svelte';
 
     let width;
     let height;

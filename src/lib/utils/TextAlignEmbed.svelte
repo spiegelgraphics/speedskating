@@ -1,4 +1,5 @@
 <script>
+    // Wrapper to align a full width animation with other text elements
     export let disabled = false;
 </script>
 

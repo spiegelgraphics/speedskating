@@ -1,4 +1,5 @@
 <script>
+    // Time display
     import { formatValue } from '$utils/format';
 
     export let clock;

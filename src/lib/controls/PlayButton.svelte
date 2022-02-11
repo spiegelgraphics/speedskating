@@ -1,4 +1,5 @@
 <script>
+    // Play button
     export let isRunning;
 
     function handleClick() {

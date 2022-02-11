@@ -1,4 +1,5 @@
 <script>
+    // Progress bar
     import { css } from '$utils/actions';
 
     export let value;

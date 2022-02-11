@@ -1,5 +1,6 @@
 <script>
-    import SpeedskatingArena from '$lib/SpeedskatingArena.svelte';
+    // Animation background selector
+    import SpeedskatingArena from '$lib/animation/SpeedskatingArena.svelte';
 
     export let type;
     export let width;

@@ -1,14 +1,15 @@
 <script>
+    // Control bar
     import { onDestroy } from 'svelte';
     
     import { browser } from '$app/env';
     import { clock, clockStep } from '$stores/clock';
     import { animationDetails } from '$stores/data';
 
-    import TextAlignEmbed from '$lib/TextAlignEmbed.svelte';
-    import PlayButton from '$lib/PlayButton.svelte';
-    import TimeDisplay from '$lib/TimeDisplay.svelte';
-    import ProgressBar from '$lib/ProgressBar.svelte';
+    import TextAlignEmbed from '$lib/utils/TextAlignEmbed.svelte';
+    import PlayButton from '$lib/controls/PlayButton.svelte';
+    import TimeDisplay from '$lib/controls/TimeDisplay.svelte';
+    import ProgressBar from '$lib/controls/ProgressBar.svelte';
 
     export let isReady = false;
     export let isDeactivated = false;

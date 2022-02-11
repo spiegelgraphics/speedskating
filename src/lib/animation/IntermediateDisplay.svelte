@@ -1,4 +1,5 @@
 <script>
+    // Intermediate times display
     import { fade } from 'svelte/transition';
     import { flip } from 'svelte/animate';
 

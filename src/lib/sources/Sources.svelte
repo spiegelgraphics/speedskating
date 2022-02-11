@@ -1,5 +1,6 @@
 <script>
-    import TextAlignEmbed from '$lib/TextAlignEmbed.svelte';
+    // Sources
+    import TextAlignEmbed from '$lib/utils/TextAlignEmbed.svelte';
 
     export let sources;
     export let textAlign = false;

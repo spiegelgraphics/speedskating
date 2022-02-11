@@ -1,7 +1,8 @@
 <script>
-    import TextAlignEmbed from '$lib/TextAlignEmbed.svelte';
-    import Countdown from '$lib/Countdown.svelte';
-    import Results from '$lib/Results.svelte';
+    // Animation overlay
+    import TextAlignEmbed from '$lib/utils/TextAlignEmbed.svelte';
+    import Countdown from '$lib/overlay/Countdown.svelte';
+    import Results from '$lib/overlay/Results.svelte';
     
     export let clock;
     export let details;

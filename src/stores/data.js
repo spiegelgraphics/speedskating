@@ -9,9 +9,8 @@ import { params } from '$stores/params';
 const config = derived(params, async ($params, set) => {
     const { config_path } = $params;
     try {
-        let { json_output } = await json(config_path, autoType);
-        if (typeof json_output === 'string') json_output = JSON.parse(json_output);
-        set(json_output);
+        const data = await json(config_path, autoType);
+        set(data);
     } catch {
         set({});
     }

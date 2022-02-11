@@ -1,10 +1,12 @@
 <script>
+    // Wrapper to detect the width and height of a container
+    // Needed instead of bind:clientWidth etc. because of CMS issues
     import { onMount } from 'svelte';
 
     import { viewport } from '$utils/actions';
 
-    export let width;
-    export let height;
+    export let width = undefined;
+    export let height = undefined;
     export let inView = false;
 
     let tid;

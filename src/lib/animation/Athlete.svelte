@@ -1,4 +1,5 @@
 <script>
+    // A single athlete
     import { createEventDispatcher } from 'svelte';
     import { scaleLinear, sum, interpolateHclLong } from 'd3';
 

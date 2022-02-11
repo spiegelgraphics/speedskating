@@ -1,13 +1,14 @@
 <script>
+    // Wrapper for the core animation
     import { trackData, animationDetails, athleteResults } from '$stores/data';
     import { clock, sectorCompletes } from '$stores/clock';
     import { params } from '$stores/params';
 
-    import Track from '$lib/Track.svelte';
-    import Sizer from '$lib/Sizer.svelte';
-    import IntermediateDisplay from '$lib/IntermediateDisplay.svelte';
-    import Athletes from '$lib/Athletes.svelte';
-    import Overlay from '$lib/Overlay.svelte';
+    import Track from '$lib/animation/Track.svelte';
+    import Sizer from '$lib/utils/Sizer.svelte';
+    import IntermediateDisplay from '$lib/animation/IntermediateDisplay.svelte';
+    import Athletes from '$lib/animation/Athletes.svelte';
+    import Overlay from '$lib/overlay/Overlay.svelte';
 
     export let isReady = false;
 
@@ -18,7 +19,7 @@
     let tracksReady = false;
     let showsResults = false;
 
-    $: ({ end_marker, intermediate_display } = $trackData);
+    $: ({ intermediate_display } = $trackData);
 
     $: isReady = tracksReady;
 </script>

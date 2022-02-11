@@ -1,7 +1,8 @@
 <script>
+    // Starting countdown
     import { css } from '$utils/actions';
 
-    import NumberSwitcher from '$lib/NumberSwitcher.svelte';
+    import NumberSwitcher from '$lib/overlay/NumberSwitcher.svelte';
 
     export let clock;
     export let maxValue;

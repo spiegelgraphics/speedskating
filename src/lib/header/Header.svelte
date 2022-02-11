@@ -1,5 +1,6 @@
 <script>
-    import TextAlignEmbed from '$lib/TextAlignEmbed.svelte';
+    // Header with headline and subtitle
+    import TextAlignEmbed from '$lib/utils/TextAlignEmbed.svelte';
 
     export let title;
     export let subtitle;

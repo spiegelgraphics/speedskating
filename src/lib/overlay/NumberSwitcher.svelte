@@ -1,4 +1,5 @@
 <script>
+    // Number switching animation (used for countdown)
     import { fly } from 'svelte/transition';
 
     export let i;

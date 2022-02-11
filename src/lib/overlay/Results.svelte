@@ -1,4 +1,5 @@
 <script>
+    // End results list
     import { fade } from 'svelte/transition';
     import { orderBy } from 'lodash-es';
 

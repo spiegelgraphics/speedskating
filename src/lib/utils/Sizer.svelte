@@ -1,4 +1,5 @@
 <script>
+    // Wrapper to define width and height of a child
     import { css } from '$utils/actions';
 
     export let width;

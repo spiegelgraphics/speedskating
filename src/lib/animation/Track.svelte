@@ -1,18 +1,19 @@
 <script>
+    // Speed skating track
     import { onMount } from 'svelte';
 
     import { fusePaths } from '$utils/geometry';
     import { getRange, getNormalOffsetCoords } from '$utils/math';
     import { generateCartesianToWebGL } from '$utils/webgl';
 
-    import Background from '$lib/Background.svelte';
+    import Background from '$lib/animation/Background.svelte';
 
     export let data;
     export let details = {};
     export let coordinates = [];
     export let endCoordinate = {};
-    export let containerWidth;
-    export let containerHeight;
+    export let containerWidth = undefined;
+    export let containerHeight = undefined;
     export let isReady = false;
 
     let track;
@@ -50,7 +51,7 @@
         numPaths,
         offsetFunctionType
     }) {
-        const ratio = i / (numPaths - 1) * (i % 2 === 0 ? 1 : -1);
+        const ratio = (i + 1) / numPaths * (i % 2 === 0 ? 1 : -1);
         let offsetFunction = (v) => v;
         if (offsetFunctionType === 'sinewave') {
             offsetFunction = (progress) => Math.sin(progress * 100 + Math.abs(ratio) * Math.PI) / trackOffsetFactor;
@@ -97,6 +98,7 @@
     $: ({ parent_svg: { width = 0, height = 0 } = {}, paths = [] } = data || {});
     $: aspectRatio = width / height;
 
+    // Generate a fused path from different smaller paths in order to assemble the speed skating track
     $: if (composition) fusedPath = fusePaths(
         composition
             .split(',')
@@ -105,6 +107,7 @@
             .filter(d => d)
     );
 
+    // Define track object which holds the info how to get positions on the track
     $: if (svgElem && pathElement) {
         const scaleX = containerWidth / width;
         const scaleY = containerHeight / height;
@@ -124,11 +127,13 @@
         }
     }
 
+    // Precalculate every possible coordinate on the track
     $: if (isReady) {
         basicCoordinates = getBasicCoordinates(track, {resolution});
         endCoordinate = basicCoordinates.slice(-1)[0];
     }
 
+    // Apply an offset to the coordinates
     $: if (basicCoordinates && basicCoordinates.length) coordinates = Array.from({length: numPaths}).map((_, i) => getCoordinates(basicCoordinates, {
         trackOffsetFactor,
         cartesianToWebGL,
@@ -137,7 +142,7 @@
         offsetFunctionType
     }));
 
-    $: isReady = containerWidth < width;
+    $: isReady = containerWidth && containerWidth < width;
 </script>
 
 <svelte:window on:resize={throttleResize} />
