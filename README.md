@@ -35,3 +35,9 @@ More (data-independent) parameters can be set in the store `params.js`.
 ## Built by
 
 the [DER SPIEGEL](https://www.spiegel.de) graphics department, 2022.
+
+The application was slightly changed compared to its original to be able to run it outside of a dedicated CMS.
+
+## License
+
+Apache License Version 2.0
