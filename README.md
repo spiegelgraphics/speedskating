@@ -21,9 +21,15 @@ More (data-independent) parameters can be set in the store `params.js`.
 
 ## Examples
 
-[Breaking news](https://www.spiegel.de/sport/olympia/olympia-2022-claudia-pechstein-stellt-einen-rekord-ein-und-verliert-einen-anderen-a-76391c80-bc83-421c-85bf-10b8a7abc67f)
+[Twitter video 1](https://twitter.com/h_i_g_s_c_h/status/1490722093004214281?s=20&t=FJtQAXIF6Kp0vrFUG_X4tw)
 
-[Pechstein vs. herself (S+)](https://www.spiegel.de/sport/wintersport/claudia-pechsteins-lauf-gegen-sich-selbst-a-7d20bc82-8494-4e16-b366-9d3484e6ddcc)
+[Twitter video 2](https://twitter.com/h_i_g_s_c_h/status/1490965786986676224?s=20&t=FJtQAXIF6Kp0vrFUG_X4tw)
+
+[Twitter video 3](https://twitter.com/h_i_g_s_c_h/status/1491828448620425220?s=20&t=FJtQAXIF6Kp0vrFUG_X4tw)
+
+[Breaking news embedding](https://www.spiegel.de/sport/olympia/olympia-2022-claudia-pechstein-stellt-einen-rekord-ein-und-verliert-einen-anderen-a-76391c80-bc83-421c-85bf-10b8a7abc67f)
+
+[Pechstein vs. herself (S+) article](https://www.spiegel.de/sport/wintersport/claudia-pechsteins-lauf-gegen-sich-selbst-a-7d20bc82-8494-4e16-b366-9d3484e6ddcc)
 
 
 ## Built by
